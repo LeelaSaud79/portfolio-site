@@ -89,7 +89,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #7C7575;
+    color: #7469B6;
     font-size: 20px;
     font-weight:normal;
     padding: 33px 0px 57px;
@@ -118,7 +118,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#7469B6;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
 
@@ -181,7 +181,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+.header-text h2 span {color: #7BD3EA;}
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -194,17 +194,22 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
     width: 200px;
     height: 60px;
     line-height: 60px;
-    border-radius: 3px;
+    border-radius: 20px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    background: #7BD3EA;
+    border: 1px solid #7BD3EA;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    transform: skew(deg); /* Skew the element by 45 degrees */
+    transform-origin: top left; /* Set the origin point for the transformation */
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
     -ms-transition: 0.3s linear; 
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
+}
+.header-text a:hover {
+    transform: rotate(-5deg); /* Adjust the degree of rotation as needed */
 }
 
 
@@ -223,7 +228,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    font-weight: 600;
+    color: black;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -297,6 +303,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
 .education {
     background:  #DFD3D3;
     padding-top:  50px;
+    
 }
 .education-horizontal-timeline {
     padding: 80px 0;
@@ -318,7 +325,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
 }
 .timeline-horizontal-border i {
     font-size:  10px;
-    color: #7C7575;
+    font-weight: 600;
+    color: black;
     margin-right:  5px;
 }
 span.single-timeline-horizontal {
@@ -623,6 +631,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .resume-link {
     float: right;
     margin-top: 60px;
+    color: lightpink;
 }
 
 
