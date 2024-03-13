@@ -14,8 +14,8 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color: #676a81;
-	background: #fff;
+	/* color: AD88C6; */
+	background-color: #DFD3D3;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -24,7 +24,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #6a708e;
+	color: #7C7575;
 	font-size:16px;
 	padding:0;
 }
@@ -76,12 +76,12 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: #FFE6E6;
     border: none;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color: #FFE6E6;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
 }
@@ -89,9 +89,9 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    color: #7C7575;
     font-size: 20px;
-    font-weight: 600;
+    font-weight:normal;
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
@@ -100,7 +100,7 @@ nav.navbar.bootsnav {
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -133,7 +133,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #d92cf9;
+  background-color: #7C7575;
 }
 /*.menu-ui-design*/
 
@@ -143,11 +143,11 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    border: 1px solid #F7418F;
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
 /*.navbar-toggle */
 
 
@@ -208,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#F7418F;border: 1px solid #9f00ff;}
 
 /* about */
 
@@ -295,7 +295,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /* Education */
 
 .education {
-    background:  #f9fbfd;
+    background:  #DFD3D3;
     padding-top:  50px;
 }
 .education-horizontal-timeline {
@@ -318,7 +318,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .timeline-horizontal-border i {
     font-size:  10px;
-    color: #d92cf9;
+    color: #7C7575;
     margin-right:  5px;
 }
 span.single-timeline-horizontal {
@@ -348,7 +348,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-progress-txt h3 {
     width: 10%;
-    color: #a606c3;
+    color: #FBF0F0;
     position: relative;
     top: 6px;
     left: 20px;
@@ -368,7 +368,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #b636ff;
+   background: #FC819E;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -383,7 +383,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #b636ff;
+   color: #FC819E;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
@@ -455,7 +455,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .timeline-content h5 {
     color: #636a82;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: normal;
     margin: 18px 0 20px;
 }
 .main-timeline .description {
@@ -492,7 +492,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .3s;
 }
 .hm-foot-icon ul li>a:hover{
-    color: #b636ff;
+    color: #FC819E;
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
@@ -516,8 +516,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#F7418F;
+	border:1px solid #F7418F;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -576,6 +576,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height: auto; /* Allow the height to adjust based on the image aspect ratio */
     object-fit: cover; /* Maintain aspect ratio while covering the card */
     display: block; /* Ensure the image behaves as a block element */
+    transition: filter 0.3s ease;
+}
+.project-card:hover img {
+    filter: brightness(80%) hue-rotate(170deg);    transform: rotateY(180deg);/* Change the color of the image on hover */
 }
 
 .project-card h3 {
@@ -609,7 +613,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /* Apply different colors to the Contact Me section */
 .contact {
-    background-color: lightgrey;
+    background-color: #FBF0F0;
     padding: 50px 0;
 }
 /* Override the bottom border for the h2 element within the contact section */
