@@ -200,8 +200,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
     background: #7BD3EA;
     border: 1px solid #7BD3EA;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
-    transform: skew(deg); /* Skew the element by 45 degrees */
-    transform-origin: top left; /* Set the origin point for the transformation */
+    transform: skew(deg); 
+    transform-origin: top left; 
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
     -ms-transition: 0.3s linear; 
@@ -209,7 +209,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #F7418F;}
     transition: 0.3s linear;
 }
 .header-text a:hover {
-    transform: rotate(-5deg); /* Adjust the degree of rotation as needed */
+    transform: rotate(-5deg); 
 }
 
 
