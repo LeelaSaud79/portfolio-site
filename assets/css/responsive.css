@@ -1,9 +1,9 @@
 /* Common container styles */
 .container {
-	margin: 0 auto; /* Center the container */
-	max-width: 100%; /* Ensure container doesn't exceed the viewport width */
-	padding: 0 15px; /* Add padding to the sides */
-	box-sizing: border-box; /* Include padding and border in the element's total width and height */
+	margin: 0 auto; 
+	max-width: 100%; 
+	padding: 0 15px; 
+	box-sizing: border-box; 
   }
   
   @media screen and (max-width: 768px) {
@@ -15,21 +15,7 @@
 	  height: auto;
 	}
   }
-  
-  /* Media query for screens smaller than 992px (laptop) */
-  @media screen and (max-width: 992px) {
-	.container {
-	  width: 85%; 
-	}
-  }
-  
-  /* Media query for screens smaller than 1200px (desktop) */
-  @media screen and (max-width: 1200px) {
-	.container {
-	  width: 80%; 
-	}
-  }
-  
+ 
   /* Media query for iPhone 6/7/8 (portrait and landscape) */
   @media only screen 
 	and (min-device-width: 375px) 
