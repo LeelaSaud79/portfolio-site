@@ -15,5 +15,28 @@
 	  height: auto;
 	}
   }
- 
+  
+  /* Media query for screens smaller than 992px (laptop) */
+  @media screen and (max-width: 992px) {
+	.container {
+	  width: 85%; 
+	}
+  }
+  
+  /* Media query for screens smaller than 1200px (desktop) */
+  @media screen and (max-width: 1200px) {
+	.container {
+	  width: 80%; 
+	}
+  }
+  
+  /* Media query for iPhone 6/7/8 (portrait and landscape) */
+  @media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+	.container {
+	  width: 95%; 
+	}
+  }
   
